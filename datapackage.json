@@ -1,6 +1,15 @@
 {
     "name": "depute-as-nat-data",
-    "title": "Liste des Députés de la XIIème Législature du Sénégal selon  http://www.assemblee-nationale.sn/",
+    "title": "Liste des Députés de la XIIème Législature du Sénégal",
+    "sources": [{
+        "name": "Assemblée nationale Sénégal",
+        "web": "http://www.assemblee-nationale.sn/index.php?option=com_content&view=article&id=214&Itemid=218"
+    }],
+    "contributors":[ {
+        "name": "Cheikh Ahmed Tidiane Dieng",
+        "email": "tehneophyt@gmail.com",
+        "web": "https://github.com/Btux"
+    }]
     "licenses": [
         {
             "id": "odc-pddl",
@@ -11,7 +20,9 @@
     ],
     "resources": [
         {
-            "path": "/data/data.csv",
+            "name": "Liste des Députés",
+            "url": "https://github.com/senegalouvert/depute-as-nat-sn/raw/master/data/data.csv",
+            "path": "data/data.csv",
             "format": "csv",
             "mediatype": "text/csv",
             "schema": {
@@ -36,8 +47,7 @@
                         "description": "",
                         "type": "string"
                     }
-                ],
-                "views": []
+                ]
             }
         }
     ]

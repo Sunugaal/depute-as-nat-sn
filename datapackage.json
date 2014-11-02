@@ -35,7 +35,7 @@
                     {
                         "id": "Prenom",
                         "description": "",
-                        "type": "string",
+                        "type": "string"
                     },
                     {
                         "id": "Nom",

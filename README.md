@@ -5,17 +5,15 @@ Liste des Députés de la XIIème Législature du Sénégal
 
 Ce dépôt contient la liste des 150 députés du sénégal en ordre alphabétique avec le nom, le prénom, et l'adresse e-mail.
 
-## Deleloppeurs:
+## Développeurs:
 
-### Intall :
+### Installation :
     git clone https://github.com/Btux/depute-as-nat-sn.git
     
-### Run :
-To run this script, you must be in the root folder and you type:
-  
+### Exécution :
+Pour exécuter ce script, vous devez être dans le dossier racine et taper :
+
     python scrapper.py
   
-### For Lambda users
-Just download the Zip it contains a csv and json file.
-
-
+## Utilisateurs lambdas
+Télécharger simplement le fichier ZIP. Il contient un fichier CSV et JSON.
